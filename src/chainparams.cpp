@@ -137,7 +137,7 @@ public:
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 50 * COIN;
+        txNew.vout[0].nValue = 500 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
@@ -145,11 +145,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1434971660;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 628104;
+        genesis.nNonce   = 4016724;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x575cce6a10b92914edc6c4c22f3383aecc7af21dae8f35dad05bf4613999df7c"));
-        assert(genesis.hashMerkleRoot == uint256("0x106e636df758912cf622536bb6b1f5763da97179c57ef72f1f51ed4df58a99ca"));
+        assert(hashGenesisBlock == uint256("0xf524460928326bffb73b52b8c4e1e30a35b0128609e11c582ca266adb4b1c40a"));
+        assert(genesis.hashMerkleRoot == uint256("0x8712c2b33c8015244188ac1bf0dce7c40ef17e3cf79c48d6e31e2b8ae6412c4f"));
 
         vSeeds.push_back(CDNSSeedData("seed.moneta.io", "seed.moneta.io"));
 
@@ -204,9 +204,9 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1434971660;
-        genesis.nNonce = 628104;
+        genesis.nNonce = 4016724;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x575cce6a10b92914edc6c4c22f3383aecc7af21dae8f35dad05bf4613999df7c"));
+        assert(hashGenesisBlock == uint256("0xf524460928326bffb73b52b8c4e1e30a35b0128609e11c582ca266adb4b1c40a"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -262,10 +262,10 @@ public:
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1434971660;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 628104;
+        genesis.nNonce = 4016724;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
-        assert(hashGenesisBlock == uint256("0x575cce6a10b92914edc6c4c22f3383aecc7af21dae8f35dad05bf4613999df7c"));
+        assert(hashGenesisBlock == uint256("0xf524460928326bffb73b52b8c4e1e30a35b0128609e11c582ca266adb4b1c40a"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
