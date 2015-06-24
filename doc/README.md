@@ -3,7 +3,7 @@ Moneta Core 0.10.2
 
 Setup
 ---------------------
-[Moneta Core](http://moneta.org/en/download) is the original Moneta client and it builds the backbone of the network. However, it downloads and stores the entire history of Moneta transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once. If you would like the process to go faster you can [download the blockchain directly](bootstrap.md).
+[Moneta Core](http://moneta.io/en/download) is the original Moneta client and it builds the backbone of the network. However, it downloads and stores the entire history of Moneta transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once. If you would like the process to go faster you can [download the blockchain directly](bootstrap.md).
 
 Running
 ---------------------

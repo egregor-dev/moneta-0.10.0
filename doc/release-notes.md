@@ -1,6 +1,6 @@
 Moneta Core version 0.10.2 is now available from:
 
-  <https://moneta.org/bin/moneta-core-0.10.2/>
+  <https://moneta.io/bin/moneta-core-0.10.2/>
 
 This is a new minor version release, bringing minor bug fixes and translation 
 updates. It is recommended to upgrade to this version.
