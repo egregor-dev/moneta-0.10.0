@@ -13,7 +13,7 @@
  * for both monetad and moneta-core, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Satoshi");
+const std::string CLIENT_NAME("Tellurion");
 
 /**
  * Client version number
