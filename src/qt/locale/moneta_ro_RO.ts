@@ -2967,8 +2967,8 @@ Adresa: %4
         <translation>Conectare prin proxy SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Moneta Core Developers</source>
-        <translation>Copyright (C) 2009-%i Dezvoltatorii Moneta</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i Dezvoltatorii Bitcoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

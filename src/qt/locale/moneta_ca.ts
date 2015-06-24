@@ -3142,8 +3142,8 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Moneta" admin@foo.com</tra
         <translation>Connecta a través del proxy SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Moneta Core Developers</source>
-        <translation>Copyright (C) 2009-%i Els desenvolupadors del Moneta Core</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i Els desenvolupadors del Bitcoin Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

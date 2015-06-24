@@ -3141,8 +3141,8 @@ till exempel: alertnotify=echo %%s | mail -s "Moneta Alert" admin@foo.com
         <translation>Anslut genom SOCKS5 proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Moneta Core Developers</source>
-        <translation>Copyright (C) 2009-%i Moneta Core Utvecklarna</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i Bitcoin Core Utvecklarna</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

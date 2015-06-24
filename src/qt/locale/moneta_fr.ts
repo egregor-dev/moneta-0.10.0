@@ -3143,8 +3143,8 @@ par exemple : alertnotify=echo %%s | mail -s "Alerte Moneta" admin@foo.com
         <translation>Se connecter par un mandataire SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Moneta Core Developers</source>
-        <translation>Copyright © 2009-%i Les développeurs de Moneta Core</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Copyright © 2009-%i Les développeurs de Bitcoin Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

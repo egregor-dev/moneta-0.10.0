@@ -3147,7 +3147,7 @@ for eksempel: alertnotify=echo %%s | mail -s "Moneta Alert" admin@foo.com
         <translation>Forbind gennem SOCKS5-proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Moneta Core Developers</source>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
         <translation>Ophavsret © 2009-%i Udviklerne af Moneta Core</translation>
     </message>
     <message>
