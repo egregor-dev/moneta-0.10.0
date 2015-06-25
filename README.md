@@ -66,10 +66,13 @@ pull from Transifex would automatically overwrite them again.
 We only accept translation fixes that are submitted through [Moneta Core's Transifex page](https://www.transifex.com/projects/p/moneta/).
 Translations are converted to Moneta periodically.
 
+First install
+-------------
+
+sudo apt-get install sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.1-dev libdb5.1++-dev git qt-sdk libminiupnpc-dev
+
 Development tips and tricks
 ---------------------------
-**first install**
-sudo apt-get install sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.1-dev libdb5.1++-dev git qt-sdk libminiupnpc-dev
 
 **compiling for debugging**
 
