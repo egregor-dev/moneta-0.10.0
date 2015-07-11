@@ -151,7 +151,7 @@ public:
         assert(hashGenesisBlock == uint256("0x642e8a7b6549d54a5f13d78ecfa8f024740fbc145f0ed0fd211d65e02afff70c"));
         assert(genesis.hashMerkleRoot == uint256("0x1ce12f86784b1fb5d1f450896e28b63070a662fa5b229b657904341b69d0ca22"));
 
-//        vSeeds.push_back(CDNSSeedData("seed.moneta.io", "seed.moneta.io"));
+        vSeeds.push_back(CDNSSeedData("seed.moneta.io", "seed.moneta.io"));
 //        vSeeds.push_back(CDNSSeedData("seed1.moneta.io", "seed1.moneta.io"));
 //        vSeeds.push_back(CDNSSeedData("seed2.moneta.io", "seed2.moneta.io"));
 //        vSeeds.push_back(CDNSSeedData("seed3.moneta.io", "seed3.moneta.io"));
