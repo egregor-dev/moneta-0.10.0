@@ -151,12 +151,12 @@ public:
         assert(hashGenesisBlock == uint256("0xf524460928326bffb73b52b8c4e1e30a35b0128609e11c582ca266adb4b1c40a"));
         assert(genesis.hashMerkleRoot == uint256("0x8712c2b33c8015244188ac1bf0dce7c40ef17e3cf79c48d6e31e2b8ae6412c4f"));
 
-        vSeeds.push_back(CDNSSeedData("seed.moneta.io", "seed.moneta.io"));
-        vSeeds.push_back(CDNSSeedData("seed1.moneta.io", "seed1.moneta.io"));
-        vSeeds.push_back(CDNSSeedData("seed2.moneta.io", "seed2.moneta.io"));
-        vSeeds.push_back(CDNSSeedData("seed3.moneta.io", "seed3.moneta.io"));
-        vSeeds.push_back(CDNSSeedData("seed4.moneta.io", "seed4.moneta.io"));
-        vSeeds.push_back(CDNSSeedData("seed5.moneta.io", "seed5.moneta.io"));
+//        vSeeds.push_back(CDNSSeedData("seed.moneta.io", "seed.moneta.io"));
+//        vSeeds.push_back(CDNSSeedData("seed1.moneta.io", "seed1.moneta.io"));
+//        vSeeds.push_back(CDNSSeedData("seed2.moneta.io", "seed2.moneta.io"));
+//        vSeeds.push_back(CDNSSeedData("seed3.moneta.io", "seed3.moneta.io"));
+//        vSeeds.push_back(CDNSSeedData("seed4.moneta.io", "seed4.moneta.io"));
+//        vSeeds.push_back(CDNSSeedData("seed5.moneta.io", "seed5.moneta.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(50);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
