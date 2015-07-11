@@ -158,7 +158,7 @@ public:
 //        vSeeds.push_back(CDNSSeedData("seed4.moneta.io", "seed4.moneta.io"));
 //        vSeeds.push_back(CDNSSeedData("seed5.moneta.io", "seed5.moneta.io"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(50);
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(20);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
         base58Prefixes[SECRET_KEY] =     list_of(176);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
